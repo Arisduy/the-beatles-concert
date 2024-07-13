@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Scroll with Background Images</title>
+    <link rel="stylesheet" href="style2203015129.css">
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#tickets">Tickets</a>
+    <a href="#register">Register</a>
+    <a href="#sponsor">Sponsors</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="home">
+    <img src="https://i.pinimg.com/736x/a8/b7/a3/a8b7a3c1ac5a3842b5029ae6daf3b350.jpg" alt="Concert Image">
+    <div class="content">
+        <div class="description">
+            <h1>The Beatles Concert</h1>
+            <p>Gelora Bung Karno Stadium Jakarta</p>
+            <p>Wednesday November 15, 2024</p>
+        </div>
+    </div>
+</section>
+
+<section id="tickets">
+    <img src="./assets/Panggung Konser.png" alt="">
+    <div class="description">
+        <h1>Tickets</h1>
+    <form action="">
+        <table>
+            <tr>
+                <th>Seat Location</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>VIP</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td>Front Row</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>General</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Balcony</td>
+                <td>$80</td>
+            </tr>
+        </table>
+        <p>The price for all of ages</p>
+    </form>
+    </div>
+</section>
+
+<section id="register">
+    <div class="description">
+        <h1>Register</h1>
+        <form methode="post">
+            <table>
+                <td><label for="NIK">NIK</label></td>
+                <td><input type="number" id="NIK" name="NIK"></td>
+                <tr>
+                    <td>
+                        <label for="nama">Nama</label>
+                    </td>
+                    <td><input type="text" id="nama" name="nama"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hp">Nomor Hp</label>
+                    </td>
+                    <td>
+                        <input type="number" id="hp" name="hp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="alamat">Alamat</label>
+                    </td>
+                    <td>
+                        <input type="text" name="alamat" id="alamat">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jenis">Jenis tiket</label>
+                    </td>
+                    <td>
+                        <select name="jenis" id="jenis">
+                            <option value="vip">VIP</option>
+                            <option value="front-row">Front Row</option>
+                            <option value="general">General</option>
+                            <option value="balcony">Balkon</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+    </div>
+</section>
+
+<section id="sponsor">
+    <div class="description">
+        <h1>Sponsors</h1>
+    <p>We are grateful for the support of our sponsors:</p>
+    <div class="sponsorship">
+        <div class="images">
+            <img src="https://i.pinimg.com/564x/52/de/c3/52dec39f31f1699b4bf13e1c7137f868.jpg" alt="">
+            <img src="https://i.pinimg.com/736x/4a/64/1d/4a641def2c732636197b2c2fe492743b.jpg" alt="">
+            <img src="https://i.pinimg.com/564x/c4/17/49/c417491098cfde3d86bd16dd04e34b89.jpg" alt="">
+            <img src="https://i.pinimg.com/564x/1c/ff/29/1cff29d930d26a2e3a647d7321b968a3.jpg" alt="">
+            <img src="https://i.pinimg.com/564x/42/74/8c/42748c525b049c0268b95309ebc29c0a.jpg" alt="">
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="description">
+        <h1>Contact Us</h1>
+        <form action="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Nama</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="HP">Nomor Hp</label>
+                    </td>
+                    <td><input type="number" id="HP" name="HP"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="Email" name="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pesan">Pesan</label>
+                    </td>
+                    <td>
+                        <textarea name="pesan" id="pesan"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+    </div>
+</section>
+
+<script src="script2203015129.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+section {
+    padding: 60px 20px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home {
+    background-size: cover;
+}
+.content {
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+#home .description {
+    position: relative;
+    top: -7cm;
+}
+.description h1 {
+    font-size: 45px;
+    margin: 0;
+}
+.description p {
+    font-size: 25px;
+    margin: 5px 0;
+}
+#tickets, #register, #sponsor, #contact {
+    color: black;
+}
+#tickets img{
+    height: 9cm;
+    width: 9cm;
+    top: -4cm;
+    right: 2cm;
+    position: relative;
+}
+td{
+    text-align: left;
+}
+td input, select, textarea{
+    position: relative;
+    left: 2cm;
+}
+#tickets table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+#tickets table, #tickets th, #tickets td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#tickets th {
+    background-color: #333;
+    color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label, form input, form select, form button {
+    margin: 10px 0;
+}
+#tickets, #register, #sponsors, #contact {
+    background-color: #f1f1f1;
+}
+.sponsorship .images img{
+    width: 5cm;
+    height: 5cm;
+}
+.images{
+    position: relative;
+    top: 3cm;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1cm;
+}
+#register .description, #tickets .description{
+    position: relative;
+    top: -3cm;
+}
+button{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: chartreuse;
+    top: 1cm;
+}
